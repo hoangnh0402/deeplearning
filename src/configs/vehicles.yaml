@@ -1,0 +1,17 @@
+# Cấu hình dữ liệu YOLO cho đề tài phát hiện & phân loại phương tiện
+# Cấu trúc thư mục:
+#   data/detection/images/{train,val,test}/*.jpg
+#   data/detection/labels/{train,val,test}/*.txt
+# Lưu ý: Ultralytics hiểu đường dẫn tương đối theo thư mục "datasets_dir" của nó,
+# nên hãy đổi thành đường dẫn TUYỆT ĐỐI trên máy bạn.
+path: D:/deeplearning/src/data/detection
+train: images/train
+val: images/val
+test: images/test
+
+names:
+  0: bicycle
+  1: bus
+  2: car
+  3: motorbike
+  4: truck
