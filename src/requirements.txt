@@ -1,0 +1,10 @@
+# Huấn luyện & đánh giá (ml/)
+torch>=2.2
+torchvision>=0.17
+ultralytics>=8.2
+numpy>=1.26
+scikit-learn>=1.4
+matplotlib>=3.8
+pillow>=10.0
+pyyaml>=6.0
+tqdm>=4.66
